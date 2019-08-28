@@ -2,3 +2,9 @@ name: NICSDRU Standard Install Profile
 type: profile
 description: To provide common functionality for various NICS websites
 core: 8.x
+dependencies:
+  module:
+    - nicsdru_workflow
+  enforced:
+    module:
+      - nicsdru_workflow
