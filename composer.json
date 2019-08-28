@@ -1,0 +1,28 @@
+{
+  "name": "dof-dss/nicsdru_standard_profile",
+  "description": "Drupal install profile to provide common functionality for NICS websites",
+  "type": "drupal-module",
+  "authors": [
+    {
+      "name": "Martin Dutton",
+      "email": "mail@martinduttonconsulting.co.uk"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "github",
+      "url": "git@github.com:dof-dss/nicsdru_workflow.git",
+      "no-api": true
+    }
+  ],
+  "require": {
+    "dof-dss/nicsdru_workflow": "dev-development"
+  },
+  "extra": {
+    "installer-paths": {
+      "modules/custom/nicsdru_workflow": [
+        "dof-dss/nicsdru_workflow"
+      ]
+    }
+  }
+}
