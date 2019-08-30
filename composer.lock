@@ -134,12 +134,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:dof-dss/nicsdru_workflow.git",
-                "reference": "8d012bb6b2ffa5936acae5165484df5a4d6032c8"
+                "reference": "e3defb22311e4fcca527c7751d70d5517697f1e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dof-dss/nicsdru_workflow/zipball/8d012bb6b2ffa5936acae5165484df5a4d6032c8",
-                "reference": "8d012bb6b2ffa5936acae5165484df5a4d6032c8",
+                "url": "https://api.github.com/repos/dof-dss/nicsdru_workflow/zipball/e3defb22311e4fcca527c7751d70d5517697f1e6",
+                "reference": "e3defb22311e4fcca527c7751d70d5517697f1e6",
                 "shasum": ""
             },
             "require": {
@@ -153,7 +153,7 @@
                 }
             ],
             "description": "Drupal module to provide workflow functionality for NICS websites",
-            "time": "2019-08-28T10:30:48+00:00"
+            "time": "2019-08-30T08:42:58+00:00"
         }
     ],
     "packages-dev": [],
