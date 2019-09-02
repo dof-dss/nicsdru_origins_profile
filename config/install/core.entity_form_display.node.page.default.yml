@@ -2,40 +2,31 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.publication.body
-    - field.field.node.publication.field_attachment
-    - node.type.publication
+    - field.field.node.page.body
+    - node.type.page
   module:
-    - file
     - path
     - text
-id: node.publication.default
+id: node.page.default
 targetEntityType: node
-bundle: publication
+bundle: page
 mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 31
+    region: content
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
-    region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_attachment:
-    weight: 122
-    settings:
-      progress_indicator: throbber
-    third_party_settings: {  }
-    type: file_generic
-    region: content
   path:
     type: path
     weight: 30
@@ -74,10 +65,10 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 5
+    region: content
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
-    region: content
     third_party_settings: {  }
 hidden: {  }

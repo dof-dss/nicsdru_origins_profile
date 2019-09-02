@@ -3,27 +3,25 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.news.body
-    - node.type.news
+    - field.field.node.page.body
+    - node.type.page
   module:
     - text
     - user
-id: node.news.teaser
+id: node.page.teaser
 targetEntityType: node
-bundle: news
+bundle: page
 mode: teaser
 content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 100
+    region: content
     settings:
       trim_length: 600
     third_party_settings: {  }
-    region: content
   links:
-    weight: 100
-    settings: {  }
-    third_party_settings: {  }
+    weight: 101
     region: content
 hidden: {  }
