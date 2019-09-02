@@ -1,0 +1,11 @@
+name: 'D8 Tuesday'
+mail: martin@theduttons.org
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
