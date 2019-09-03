@@ -38,6 +38,7 @@ install:
   - views_ui
   - tour
   - automated_cron
+  - admin_toolbar
 themes:
   - bartik
-  - seven
+  - adminimal_theme
