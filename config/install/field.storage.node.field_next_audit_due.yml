@@ -1,16 +1,17 @@
+uuid: bb7bcb05-9f60-49d8-a713-c7b493371fa7
 langcode: en
 status: true
 dependencies:
   module:
-    - comment
+    - datetime
     - node
-id: node.comment
-field_name: comment
+id: node.field_next_audit_due
+field_name: field_next_audit_due
 entity_type: node
-type: comment
+type: datetime
 settings:
-  comment_type: comment
-module: comment
+  datetime_type: date
+module: datetime
 locked: false
 cardinality: 1
 translatable: true

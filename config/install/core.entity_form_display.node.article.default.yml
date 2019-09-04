@@ -1,15 +1,21 @@
+uuid: b4bad79b-3630-4cdb-9bf6-334997815507
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.field_image
+    - field.field.node.article.field_next_audit_due
+    - field.field.node.article.field_tags
     - image.style.thumbnail
     - node.type.article
   module:
+    - datetime
     - image
     - path
     - text
+_core:
+  default_config_hash: swMFAgQNJPsVbKuLGIbyfY-ZQ5TT5zrRt6MrlWE2-BQ
 id: node.article.default
 targetEntityType: node
 bundle: article
@@ -38,6 +44,12 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
+  field_next_audit_due:
+    weight: 121
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
   path:
     type: path
     weight: 30
@@ -82,4 +94,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  comment: true
+  field_tags: true
