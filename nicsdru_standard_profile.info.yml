@@ -8,14 +8,12 @@ install:
   - block
   - breakpoint
   - ckeditor
-  - color
   - config
   - contextual
   - contact
   - menu_link_content
   - datetime
   - block_content
-  - quickedit
   - editor
   - help
   - image
@@ -28,14 +26,12 @@ install:
   - taxonomy
   - dblog
   - search
-  - shortcut
   - toolbar
   - field_ui
   - file
   - rdf
   - views
   - views_ui
-  - tour
   - automated_cron
   - admin_toolbar
 themes:
