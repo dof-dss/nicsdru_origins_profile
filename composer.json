@@ -1,5 +1,5 @@
 {
-  "name": "dof-dss/nicsdru_standard_profile",
+  "name": "dof-dss/nicsdru_origins_profile",
   "description": "Drupal install profile to provide common functionality for NICS websites",
   "type": "drupal-module",
   "authors": [
@@ -16,12 +16,12 @@
     }
   ],
   "require": {
-    "dof-dss/nicsdru_workflow": "dev-development"
+    "dof-dss/nicsdru_origins_modules": "dev-development"
   },
   "extra": {
     "installer-paths": {
-      "modules/custom/nicsdru_workflow": [
-        "dof-dss/nicsdru_workflow"
+      "modules/origins": [
+        "dof-dss/nicsdru_origins_workflow"
       ]
     }
   }
