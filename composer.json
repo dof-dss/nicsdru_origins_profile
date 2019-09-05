@@ -11,7 +11,7 @@
   "repositories": [
     {
       "type": "github",
-      "url": "git@github.com:dof-dss/nicsdru_workflow.git",
+      "url": "git@github.com:dof-dss/nicsdru_origins_modules.git",
       "no-api": true
     }
   ],

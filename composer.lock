@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40a197e7cdf37394afdbab9b1d92f997",
+    "content-hash": "27aa396dd58055a5fc500401440ec94b",
     "packages": [
         {
             "name": "composer/installers",
@@ -129,17 +129,17 @@
             "time": "2019-08-12T15:00:31+00:00"
         },
         {
-            "name": "dof-dss/nicsdru_workflow",
+            "name": "dof-dss/nicsdru_origins_modules",
             "version": "dev-development",
             "source": {
                 "type": "git",
-                "url": "git@github.com:dof-dss/nicsdru_workflow.git",
-                "reference": "e3defb22311e4fcca527c7751d70d5517697f1e6"
+                "url": "git@github.com:dof-dss/nicsdru_origins_modules.git",
+                "reference": "1dc863c6248867e2bce2dfddba3d12c0ef14438d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dof-dss/nicsdru_workflow/zipball/e3defb22311e4fcca527c7751d70d5517697f1e6",
-                "reference": "e3defb22311e4fcca527c7751d70d5517697f1e6",
+                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_modules/zipball/1dc863c6248867e2bce2dfddba3d12c0ef14438d",
+                "reference": "1dc863c6248867e2bce2dfddba3d12c0ef14438d",
                 "shasum": ""
             },
             "require": {
@@ -148,19 +148,19 @@
             "type": "drupal-module",
             "authors": [
                 {
-                    "name": "Martin Dutton",
-                    "email": "mail@martinduttonconsulting.co.uk"
+                    "name": "Stephen Cousins",
+                    "email": "hello@onemanandhismouse.com"
                 }
             ],
-            "description": "Drupal module to provide workflow functionality for NICS websites",
-            "time": "2019-08-30T08:42:58+00:00"
+            "description": "Generic modules for DOF-DSS Drupal sites",
+            "time": "2019-09-05T09:31:23+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "dof-dss/nicsdru_workflow": 20
+        "dof-dss/nicsdru_origins_modules": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
