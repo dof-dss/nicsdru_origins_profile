@@ -1,4 +1,4 @@
-name: NICSDRU Origins Install Profile
+name: NICS Origins Install Profile
 type: profile
 description: To provide common functionality for various NICS websites
 core: 8.x
