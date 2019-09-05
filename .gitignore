@@ -2,4 +2,4 @@
 /vendor/
 
 # Ignore workflow module as held in separate repo
-/modules/custom/nicsdru_workflow
+/modules/custom/origins_workflow
