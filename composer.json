@@ -21,7 +21,7 @@
   "extra": {
     "installer-paths": {
       "modules/origins": [
-        "dof-dss/nicsdru_origins_workflow"
+        "dof-dss/nicsdru_origins_modules"
       ]
     }
   }
