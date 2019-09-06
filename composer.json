@@ -1,11 +1,10 @@
 {
   "name": "dof-dss/nicsdru_origins_profile",
   "description": "Drupal install profile to provide common functionality for NICS websites",
-  "type": "drupal-module",
+  "type": "project",
   "authors": [
     {
-      "name": "Martin Dutton",
-      "email": "mail@martinduttonconsulting.co.uk"
+      "name": "Martin Dutton"
     }
   ],
   "repositories": [
@@ -13,15 +12,25 @@
       "type": "github",
       "url": "git@github.com:dof-dss/nicsdru_origins_modules.git",
       "no-api": true
+    },
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
     }
   ],
   "require": {
-    "dof-dss/nicsdru_origins_modules": "dev-development"
+    "dof-dss/nicsdru_origins_modules": "dev-development",
+    "drupal/admin_toolbar": "^1.2"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "extra": {
     "installer-paths": {
       "modules/origins": [
         "dof-dss/nicsdru_origins_modules"
+      ],
+      "modules/contrib/{$name}": [
+        "type:drupal-module"
       ]
     }
   }
