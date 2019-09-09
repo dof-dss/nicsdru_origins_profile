@@ -3,3 +3,6 @@
 
 # Ignore workflow module as held in separate repo
 /modules/custom/origins_workflow
+
+# Ignore anything contrib; handled by composer.
+/modules/contrib.
