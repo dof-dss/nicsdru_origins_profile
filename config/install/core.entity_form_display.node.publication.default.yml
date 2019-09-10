@@ -4,7 +4,9 @@ dependencies:
   config:
     - field.field.node.publication.body
     - field.field.node.publication.field_attachment
+    - field.field.node.publication.field_publication_type
     - field.field.node.publication.field_published_date
+    - field.field.node.publication.field_summary
     - node.type.publication
   module:
     - datetime
@@ -38,11 +40,25 @@ content:
     third_party_settings: {  }
     type: file_generic
     region: content
+  field_publication_type:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_published_date:
     weight: 123
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
+    region: content
+  field_summary:
+    weight: 124
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
     region: content
   path:
     type: path

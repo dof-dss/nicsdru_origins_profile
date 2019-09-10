@@ -3,13 +3,12 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
-    - field.field.node.article.field_image
+    - field.field.node.article.field_enable_toc
     - field.field.node.article.field_next_audit_due
-    - image.style.large
+    - field.field.node.article.field_summary
     - node.type.article
   module:
     - datetime
-    - image
     - text
     - user
 id: node.article.default
@@ -24,15 +23,16 @@ content:
     settings: {  }
     third_party_settings: {  }
     label: hidden
-  field_image:
-    type: image
-    weight: -1
-    region: content
+  field_enable_toc:
+    weight: 103
+    label: above
     settings:
-      image_style: large
-      image_link: ''
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
     third_party_settings: {  }
-    label: hidden
+    type: boolean
+    region: content
   field_next_audit_due:
     weight: 101
     label: above
@@ -41,6 +41,13 @@ content:
       timezone_override: ''
     third_party_settings: {  }
     type: datetime_default
+    region: content
+  field_summary:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   links:
     weight: 100

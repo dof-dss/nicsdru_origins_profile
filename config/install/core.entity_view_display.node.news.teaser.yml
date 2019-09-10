@@ -4,6 +4,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.news.body
+    - field.field.node.news.field_photo
+    - field.field.node.news.field_published_date
     - node.type.news
   module:
     - text
@@ -26,4 +28,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_photo: true
+  field_published_date: true
