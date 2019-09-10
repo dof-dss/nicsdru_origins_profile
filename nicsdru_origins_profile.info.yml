@@ -13,6 +13,7 @@ install:
   - contact
   - menu_link_content
   - datetime
+  - datetime_range
   - block_content
   - editor
   - help
@@ -35,6 +36,7 @@ install:
   - automated_cron
 dependencies:
   - admin_toolbar
+  - address
 themes:
   - stark
   - adminimal_theme
