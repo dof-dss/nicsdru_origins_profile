@@ -33,6 +33,7 @@ install:
   - views
   - views_ui
   - automated_cron
+dependencies:
   - admin_toolbar
 themes:
   - stark
