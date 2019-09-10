@@ -18,6 +18,8 @@ install:
   - editor
   - help
   - image
+  - layout_builder
+  - layout_discovery
   - menu_ui
   - options
   - path
