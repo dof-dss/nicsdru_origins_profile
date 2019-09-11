@@ -25,15 +25,5 @@
     "drupal/adminimal_theme": "^1.5"
   },
   "minimum-stability": "dev",
-  "prefer-stable": true,
-  "extra": {
-    "installer-paths": {
-      "modules/origins": [
-        "dof-dss/nicsdru_origins_modules"
-      ],
-      "modules/contrib/{$name}": [
-        "type:drupal-module"
-      ]
-    }
-  }
+  "prefer-stable": true
 }
