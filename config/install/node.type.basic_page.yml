@@ -10,7 +10,7 @@ third_party_settings:
     parent: 'main:'
 name: 'Basic page'
 type: basic_page
-description: 'Use this content type for basic pages on your site'
+description: 'Use this content type for basic pages on your site.'
 help: ''
 new_revision: true
 preview_mode: 1
