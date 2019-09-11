@@ -71,4 +71,6 @@ content:
       placeholder: ''
     region: content
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  body: true
+  layout_builder__layout: true
