@@ -1,5 +1,5 @@
 {
-  "name": "dof-dss/nicsdru_origins_profile",
+  "name": "dof-dss/origins",
   "description": "Drupal install profile to provide common functionality for NICS websites",
   "type": "project",
   "authors": [
