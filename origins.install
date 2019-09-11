@@ -11,7 +11,7 @@
  *
  * @see system_install()
  */
-function origins_profile_install() {
+function origins_install() {
   // We install some menu links, so we have to rebuild the router, to ensure the
   // menu links are valid.
   \Drupal::service('router.builder')->rebuildIfNeeded();
