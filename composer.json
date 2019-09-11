@@ -21,7 +21,8 @@
   "require": {
     "dof-dss/nicsdru_origins_modules": "dev-development",
     "drupal/admin_toolbar": "^1.2",
-    "drupal/address": "^1.7"
+    "drupal/address": "^1.7",
+    "drupal/adminimal_theme": "^1.5"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
