@@ -38,6 +38,7 @@ install:
   - views
   - views_ui
   - automated_cron
+  - origins_common
 dependencies:
   - admin_toolbar
   - admin_toolbar_tools
