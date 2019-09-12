@@ -4,11 +4,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
-    - field.field.node.article.field_image
-    - image.style.medium
+    - field.field.node.article.field_next_audit_due
+    - field.field.node.article.field_summary
     - node.type.article
   module:
-    - image
     - text
     - user
 id: node.article.teaser
@@ -24,17 +23,9 @@ content:
       trim_length: 600
     third_party_settings: {  }
     label: hidden
-  field_image:
-    type: image
-    weight: -1
-    region: content
-    settings:
-      image_style: medium
-      image_link: content
-    third_party_settings: {  }
-    label: hidden
   links:
     weight: 100
     region: content
 hidden:
-  field_image: true
+  field_next_audit_due: true
+  field_summary: true

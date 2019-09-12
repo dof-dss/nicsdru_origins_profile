@@ -7,16 +7,18 @@
       "type": "github",
       "url": "git@github.com:dof-dss/nicsdru_origins_modules.git",
       "no-api": true
+    },
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
     }
   ],
   "require": {
-    "dof-dss/nicsdru_origins_modules": "dev-development"
+    "dof-dss/nicsdru_origins_modules": "dev-development",
+    "drupal/admin_toolbar": "^1.2",
+    "drupal/address": "^1.7",
+    "drupal/adminimal_theme": "^1.5"
   },
-  "extra": {
-    "installer-paths": {
-      "modules/origins": [
-        "dof-dss/nicsdru_origins_modules"
-      ]
-    }
-  }
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

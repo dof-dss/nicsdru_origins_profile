@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.profile
+  module:
+    - text
+id: node.profile.field_summary
+field_name: field_summary
+entity_type: node
+bundle: profile
+label: Summary
+description: 'Enter a summary of this profile.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

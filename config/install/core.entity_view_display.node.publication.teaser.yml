@@ -4,6 +4,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.publication.body
+    - field.field.node.publication.field_attachment
+    - field.field.node.publication.field_published_date
     - node.type.publication
   module:
     - text
@@ -26,4 +28,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_attachment: true
+  field_published_date: true
