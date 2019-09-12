@@ -1,12 +1,7 @@
 {
   "name": "dof-dss/nicsdru_origins_profile",
   "description": "Drupal install profile to provide common functionality for NICS websites",
-  "type": "drupal-profile",
-  "authors": [
-    {
-      "name": "Martin Dutton"
-    }
-  ],
+  "type": "drupal-module",
   "repositories": [
     {
       "type": "github",
