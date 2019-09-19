@@ -6,3 +6,6 @@
 
 # Ignore anything contrib; handled by composer.
 /modules/contrib.
+
+# Ignore macOS files
+.DS_Store
