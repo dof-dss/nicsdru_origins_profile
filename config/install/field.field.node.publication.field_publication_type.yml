@@ -1,3 +1,4 @@
+uuid: ec58aea1-3909-43e9-9a92-2fda2b88ec39
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.publication
   module:
     - options
+_core:
+  default_config_hash: MTRaADBWAbEAFDBof89qeak17Pj1GHtXt-ibMPgBJEo
 id: node.publication.field_publication_type
 field_name: field_publication_type
 entity_type: node

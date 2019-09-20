@@ -1,3 +1,4 @@
+uuid: 9699a9c1-4f39-4669-9b8c-e1db5d278bae
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.consultation
   module:
     - text
+_core:
+  default_config_hash: t_iTLgmQIB-z2iedFHzJesSSTLdu-z5NdhHVBWmEwZw
 id: node.consultation.field_summary
 field_name: field_summary
 entity_type: node

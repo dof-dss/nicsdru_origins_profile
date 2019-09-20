@@ -1,3 +1,4 @@
+uuid: 4fb13c20-53ce-4a7d-9dc2-79502f9ee85d
 langcode: en
 status: true
 dependencies:
@@ -8,6 +9,8 @@ dependencies:
   module:
     - link
     - path
+_core:
+  default_config_hash: 9adI-4KuFB2aP75iXsrNp96CSE0rU6ywPW3g2SJ29TE
 id: node.link.default
 targetEntityType: node
 bundle: link

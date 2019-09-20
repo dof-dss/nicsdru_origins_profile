@@ -1,3 +1,4 @@
+uuid: 11b440a9-2ea8-4be7-b840-6a072b8e27cc
 langcode: en
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
   module:
     - text
     - user
+_core:
+  default_config_hash: qgg-RsYAiNisMuDKtiHw5pGPRa9iSBN-lOxeeY3s20I
 id: node.contact.default
 targetEntityType: node
 bundle: contact

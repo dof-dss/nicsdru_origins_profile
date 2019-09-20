@@ -1,3 +1,4 @@
+uuid: 648a3c21-c6f5-4f77-95bc-f4fec5c3f416
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.application
   module:
     - link
+_core:
+  default_config_hash: 1n71460r-UzRk4mhhKEFzQpr2S6lRg27gG6Qck1dPp8
 id: node.application.field_link
 field_name: field_link
 entity_type: node

@@ -1,3 +1,4 @@
+uuid: 7821c182-b519-45e8-af4c-56692e9b4f9e
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.consultation
   module:
     - address
+_core:
+  default_config_hash: a6x3GDzgt_44fryIz7VSkjepL-eyoWpLKgtvE-dox2c
 id: node.consultation.field_postal
 field_name: field_postal
 entity_type: node

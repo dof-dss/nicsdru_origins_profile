@@ -1,8 +1,11 @@
+uuid: 155d89e7-45e6-4be0-a7a2-f1743b382aa0
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.contact
+_core:
+  default_config_hash: 2zOouNvee9r1JZnoVe_9wj7ffAcnwtw68Ocp_Vz8rAo
 id: node.contact.title
 field_name: title
 entity_type: node

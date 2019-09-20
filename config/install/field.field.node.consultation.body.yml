@@ -1,3 +1,4 @@
+uuid: d6ef2d8b-cbf2-45d2-b617-ddd321d15d87
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.consultation
   module:
     - text
+_core:
+  default_config_hash: ppBl7gYDcGzwweSWOe-yh9w7A9cKUFdfMe7zAiBAYNM
 id: node.consultation.body
 field_name: body
 entity_type: node

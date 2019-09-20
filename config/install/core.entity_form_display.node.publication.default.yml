@@ -1,3 +1,4 @@
+uuid: 5ef3765f-3231-43f0-b688-40e28b539fa0
 langcode: en
 status: true
 dependencies:
@@ -13,6 +14,8 @@ dependencies:
     - file
     - path
     - text
+_core:
+  default_config_hash: GRSchbTAtzaEVhd0BSY2kljgoOYA3x4xzs896Px3_tE
 id: node.publication.default
 targetEntityType: node
 bundle: publication

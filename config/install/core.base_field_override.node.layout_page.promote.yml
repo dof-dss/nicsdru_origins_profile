@@ -1,8 +1,11 @@
+uuid: 08441abb-7b24-48d5-a757-9a13d5761ed0
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.layout_page
+_core:
+  default_config_hash: Zf4v8rjHAO-XEf_YdX-8UKaEZs7bQ49xV67zHoOdhWY
 id: node.layout_page.promote
 field_name: promote
 entity_type: node
