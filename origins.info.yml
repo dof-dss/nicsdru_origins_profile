@@ -45,7 +45,6 @@ install:
   - token
   - token_filter
   - metatag
-  - easy_install
 dependencies:
   - admin_toolbar
   - admin_toolbar_tools

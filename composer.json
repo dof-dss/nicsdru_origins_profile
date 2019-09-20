@@ -29,7 +29,5 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
-    "drupal/devel": "^2.1",
-    "drupal/easy_install": "^10.1"
   }
 }
