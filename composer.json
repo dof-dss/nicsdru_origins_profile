@@ -24,12 +24,12 @@
     "drupal/handy_cache_tags": "^1.0",
     "drupal/views_custom_cache_tag": "^1.1",
     "drupal/layout_builder_modal": "^1.0@alpha",
-    "drupal/redirect": "^1.4",
-    "drupal/easy_install": "^10.1"
+    "drupal/redirect": "^1.4"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
-    "drupal/devel": "^2.1"
+    "drupal/devel": "^2.1",
+    "drupal/easy_install": "^10.1"
   }
 }
