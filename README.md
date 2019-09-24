@@ -5,6 +5,8 @@ a standard draft/review/publish workflow on NICS sites along with 'needs audit' 
 
 ## Usage
 
-Please clone this repo into the web/profiles/custom directory of your Drupal site.
-Before use, please run 'composer install' inside the 'nicsdru_origins_profile' directory in order
-to pull in the origins modules.
+You can include this package into your project using composer:
+```
+composer require dof-dss/nicsdru_origins_profile
+```
+Details can be found at: https://packagist.org/packages/dof-dss/nicsdru_origins_profile
