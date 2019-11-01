@@ -995,16 +995,16 @@
         },
         {
             "name": "dof-dss/nicsdru_origins_modules",
-            "version": "0.1.1",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dof-dss/nicsdru_origins_modules.git",
-                "reference": "c46b15c562e86134994028beea61ef1111cde413"
+                "reference": "dbaa94e4ce671c37c6a7f2e45ee36ce98e6d0c01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_modules/zipball/c46b15c562e86134994028beea61ef1111cde413",
-                "reference": "c46b15c562e86134994028beea61ef1111cde413",
+                "url": "https://api.github.com/repos/dof-dss/nicsdru_origins_modules/zipball/dbaa94e4ce671c37c6a7f2e45ee36ce98e6d0c01",
+                "reference": "dbaa94e4ce671c37c6a7f2e45ee36ce98e6d0c01",
                 "shasum": ""
             },
             "require": {
@@ -1013,7 +1013,7 @@
             "type": "drupal-module",
             "notification-url": "https://packagist.org/downloads/",
             "description": "Generic modules for DOF-DSS Drupal sites",
-            "time": "2019-09-19T13:03:50+00:00"
+            "time": "2019-10-29T14:51:55+00:00"
         },
         {
             "name": "drupal/address",
@@ -1859,7 +1859,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.4",
-                    "datestamp": "1554239887",
+                    "datestamp": "1570828084",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1974,7 +1974,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.3",
-                    "datestamp": "1563488885",
+                    "datestamp": "1570445886",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2287,14 +2287,14 @@
             "authors": [
                 {
                     "name": "Nicholas Humfrey",
-                    "role": "Developer",
                     "email": "njh@aelius.com",
-                    "homepage": "http://www.aelius.com/njh/"
+                    "homepage": "http://www.aelius.com/njh/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Alexey Zakhlestin",
-                    "role": "Developer",
-                    "email": "indeyets@gmail.com"
+                    "email": "indeyets@gmail.com",
+                    "role": "Developer"
                 }
             ],
             "description": "EasyRdf is a PHP library designed to make it easy to consume and produce RDF.",
@@ -2762,18 +2762,18 @@
             "authors": [
                 {
                     "name": "Greg Beaver",
-                    "role": "Helper",
-                    "email": "cellog@php.net"
+                    "email": "cellog@php.net",
+                    "role": "Helper"
                 },
                 {
                     "name": "Andrei Zmievski",
-                    "role": "Lead",
-                    "email": "andrei@php.net"
+                    "email": "andrei@php.net",
+                    "role": "Lead"
                 },
                 {
                     "name": "Stig Bakken",
-                    "role": "Developer",
-                    "email": "stig@php.net"
+                    "email": "stig@php.net",
+                    "role": "Developer"
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
