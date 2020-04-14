@@ -10,7 +10,6 @@
   ],
   "require": {
     "dof-dss/nicsdru_origins_modules": "^0.3",
-    "drupal/admin_toolbar": "^1.2",
     "drupal/address": "^1.7",
     "drupal/adminimal_theme": "^1.5",
     "drupal/ctools": "^3.2",
@@ -24,7 +23,8 @@
     "drupal/handy_cache_tags": "^1.0",
     "drupal/views_custom_cache_tag": "^1.1",
     "drupal/layout_builder_modal": "^1.0@alpha",
-    "drupal/redirect": "^1.4"
+    "drupal/redirect": "^1.4",
+    "drupal/admin_toolbar": "^2.2"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
