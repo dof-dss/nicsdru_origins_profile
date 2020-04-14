@@ -1,9 +1,12 @@
+uuid: 3491035a-ad63-4ff2-aab0-4bb9183fc5e0
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_enable_toc
     - node.type.article
+_core:
+  default_config_hash: 4uEE__fpZTPYVREWx1kYWXla9czqxIhrRYtOHLF1NKg
 id: node.article.field_enable_toc
 field_name: field_enable_toc
 entity_type: node

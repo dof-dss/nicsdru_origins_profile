@@ -1,12 +1,15 @@
+uuid: 226a3605-e696-41cd-b186-d6c23ecb1258
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.layout_page.body
+    - field.field.node.layout_page.layout_builder__layout
     - node.type.layout_page
   module:
     - path
-    - text
+_core:
+  default_config_hash: QScwCfZKeEHjMnVts-usQoBxWcBfhIi7cTdWGyfrjbE
 id: node.layout_page.default
 targetEntityType: node
 bundle: layout_page

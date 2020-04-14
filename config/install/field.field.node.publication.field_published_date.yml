@@ -1,3 +1,4 @@
+uuid: 798e6cb9-78ec-4e40-967d-70720dbe6d72
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.publication
   module:
     - datetime
+_core:
+  default_config_hash: aYp0NIYNJQYxHn52gNKUsxWnWbFy-VI_TfRsbjEsfWk
 id: node.publication.field_published_date
 field_name: field_published_date
 entity_type: node

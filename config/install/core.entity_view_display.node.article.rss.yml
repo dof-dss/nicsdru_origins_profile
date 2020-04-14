@@ -1,14 +1,18 @@
+uuid: 71a3e2d4-d65a-40ba-bc3e-d0637d290619
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.rss
     - field.field.node.article.body
+    - field.field.node.article.field_enable_toc
     - field.field.node.article.field_next_audit_due
     - field.field.node.article.field_summary
     - node.type.article
   module:
     - user
+_core:
+  default_config_hash: ehttgI9yb2_F7M-Kj88La4Uj1tU98QuDVxBhF5kCdHY
 id: node.article.rss
 targetEntityType: node
 bundle: article
@@ -19,5 +23,6 @@ content:
     region: content
 hidden:
   body: true
+  field_enable_toc: true
   field_next_audit_due: true
   field_summary: true

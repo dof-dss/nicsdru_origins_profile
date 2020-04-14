@@ -1,15 +1,19 @@
+uuid: 6ac38ddd-cd57-44dd-9663-5087d02dbec1
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
+    - field.field.node.article.field_enable_toc
     - field.field.node.article.field_next_audit_due
     - field.field.node.article.field_summary
     - node.type.article
   module:
     - text
     - user
+_core:
+  default_config_hash: kPKB0KArVn0DnnEr_IeV7LMSfK8m20YMkRUtZCGjzHM
 id: node.article.teaser
 targetEntityType: node
 bundle: article
@@ -27,5 +31,6 @@ content:
     weight: 100
     region: content
 hidden:
+  field_enable_toc: true
   field_next_audit_due: true
   field_summary: true

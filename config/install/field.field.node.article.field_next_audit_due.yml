@@ -1,3 +1,4 @@
+uuid: 20bcfbf5-2415-4c94-a22e-da850acb3c68
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.article
   module:
     - datetime
+_core:
+  default_config_hash: FJLwFmpIL3c18msukPxuoCXcQoQ8VCta2l2sGQUCOdQ
 id: node.article.field_next_audit_due
 field_name: field_next_audit_due
 entity_type: node

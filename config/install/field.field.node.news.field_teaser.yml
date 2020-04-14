@@ -1,9 +1,12 @@
+uuid: 38fb4a00-15b0-4e48-abf8-646345ae7d71
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_teaser
     - node.type.news
+_core:
+  default_config_hash: 1FsJzihApN0_v47zULsftJea1AD2-XwJVE7XzbgssC4
 id: node.news.field_teaser
 field_name: field_teaser
 entity_type: node

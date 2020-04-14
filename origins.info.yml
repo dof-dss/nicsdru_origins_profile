@@ -2,8 +2,6 @@ name: NICS Origins
 type: profile
 description: To provide common functionality for various NICS websites
 core: 8.x
-distribution:
-  name: origins
 install:
   - node
   - history
@@ -39,6 +37,12 @@ install:
   - views_ui
   - automated_cron
   - origins_common
+  - ctools
+  - simplei
+  - pathauto
+  - token
+  - token_filter
+  - metatag
 dependencies:
   - admin_toolbar
   - admin_toolbar_tools

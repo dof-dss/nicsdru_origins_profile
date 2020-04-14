@@ -1,3 +1,4 @@
+uuid: ace1a267-446c-4d87-bca9-f6a1137c5944
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.news
   module:
     - datetime
+_core:
+  default_config_hash: jk7PfQgpbIV_DCy4VLUs2B4XIUcpdbuPGTOsTPkCtbI
 id: node.news.field_published_date
 field_name: field_published_date
 entity_type: node

@@ -1,3 +1,4 @@
+uuid: 30f8717c-c0cc-41bc-97ae-b6d4a0272ea4
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.contact
   module:
     - text
+_core:
+  default_config_hash: nP_x7N3ve8fQrCiBFuX7Tcod4HGDP73kHvhI35PicB0
 id: node.contact.body
 field_name: body
 entity_type: node

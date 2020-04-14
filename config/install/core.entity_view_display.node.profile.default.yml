@@ -1,3 +1,4 @@
+uuid: 307b2632-09df-4ca3-9025-f7c8a08bc2c0
 langcode: en
 status: true
 dependencies:
@@ -10,6 +11,8 @@ dependencies:
     - image
     - text
     - user
+_core:
+  default_config_hash: YtcLw0rNn2TTw1fL6I2t1A6fO4U1zqJPn0R-KK4aNEI
 id: node.profile.default
 targetEntityType: node
 bundle: profile

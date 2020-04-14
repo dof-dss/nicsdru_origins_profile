@@ -1,3 +1,4 @@
+uuid: 210b78d2-97a9-4c95-b038-55e11b998af5
 langcode: en
 status: true
 dependencies:
@@ -13,6 +14,8 @@ dependencies:
     - image
     - text
     - user
+_core:
+  default_config_hash: etO7MOX5rGlnrZZHrQ8BDzp6OmFGZXuI_Tm7_GUlU_U
 id: node.news.default
 targetEntityType: node
 bundle: news

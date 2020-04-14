@@ -1,3 +1,4 @@
+uuid: 9be18c79-65bf-4037-b742-73f9233ad0ff
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.publication
   module:
     - text
+_core:
+  default_config_hash: tgT8-TTpvYkMSGoOe2G3QpBRkLAxp97n1RVM0EtOvzc
 id: node.publication.field_summary
 field_name: field_summary
 entity_type: node

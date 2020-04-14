@@ -1,3 +1,4 @@
+uuid: 17edb275-bfa4-4b55-8db7-53987ce7a90e
 langcode: en
 status: true
 dependencies:
@@ -11,6 +12,8 @@ dependencies:
     - image
     - path
     - text
+_core:
+  default_config_hash: CS_F8HXQDoCs5-Wz8mbP3HgjPJh6uId2lDoImc1fUjg
 id: node.profile.default
 targetEntityType: node
 bundle: profile

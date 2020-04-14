@@ -1,13 +1,17 @@
+uuid: 74b07eca-ace4-4bd6-821e-f05c3e6f1b27
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.layout_page.body
+    - field.field.node.layout_page.layout_builder__layout
     - node.type.layout_page
   module:
     - text
     - user
+_core:
+  default_config_hash: 5DOa6m6pz_0RPOQ-twlbhHLbONrt5Cm0kmULM_5jp4g
 id: node.layout_page.teaser
 targetEntityType: node
 bundle: layout_page
@@ -26,4 +30,5 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  layout_builder__layout: true

@@ -1,3 +1,4 @@
+uuid: 17d3ff68-a04a-46f8-9b39-1c7db30491c8
 langcode: en
 status: true
 dependencies:
@@ -11,6 +12,8 @@ dependencies:
     - link
     - text
     - user
+_core:
+  default_config_hash: 2C6Qz8TeXkjbpqhcmwM9MkkTdAlawRiJU3pppILL9jU
 id: node.application.default
 targetEntityType: node
 bundle: application

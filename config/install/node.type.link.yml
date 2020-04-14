@@ -1,3 +1,4 @@
+uuid: 743b2c24-3071-4cf1-bffe-a85e07461e10
 langcode: en
 status: true
 dependencies:
@@ -8,6 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
+_core:
+  default_config_hash: IpcxSmYIsaVyzrzR391jzaVGOQC3pt-alvZV9ypmP8M
 name: Link
 type: link
 description: 'Use this content type to create links.'

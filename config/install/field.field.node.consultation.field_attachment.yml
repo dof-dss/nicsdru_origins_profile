@@ -1,3 +1,4 @@
+uuid: 918ef075-59a1-4d6f-bc44-683a2df51d07
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.consultation
   module:
     - file
+_core:
+  default_config_hash: CTtEBmpfya5mFmZ3DWGZmMFFsVh2fp_4hl6jX73VhPk
 id: node.consultation.field_attachment
 field_name: field_attachment
 entity_type: node
