@@ -5,15 +5,15 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.article.body
-    - field.field.node.article.field_enable_toc
     - field.field.node.article.field_next_audit_due
     - field.field.node.article.field_summary
+    - field.field.node.article.field_toc_enable
     - node.type.article
   module:
     - text
     - user
 _core:
-  default_config_hash: kPKB0KArVn0DnnEr_IeV7LMSfK8m20YMkRUtZCGjzHM
+  default_config_hash: zXK51U8-5ytLW2Mw9_19_LuBcDoz01uu9JcQN0sHCTs
 id: node.article.teaser
 targetEntityType: node
 bundle: article
@@ -27,10 +27,21 @@ content:
       trim_length: 600
     third_party_settings: {  }
     label: hidden
-  links:
-    weight: 100
+  field_toc_enable:
+    type: boolean
+    weight: 2
     region: content
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
-  field_enable_toc: true
   field_next_audit_due: true
   field_summary: true
