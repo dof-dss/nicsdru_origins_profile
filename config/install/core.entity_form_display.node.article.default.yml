@@ -4,16 +4,16 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
-    - field.field.node.article.field_enable_toc
     - field.field.node.article.field_next_audit_due
     - field.field.node.article.field_summary
+    - field.field.node.article.field_toc_enable
     - node.type.article
   module:
     - datetime
     - path
     - text
 _core:
-  default_config_hash: J5YBHWXdnTXUHEnOn_d7-kQc3yC41R3aoR2_TO4Vwyg
+  default_config_hash: lt6_q6-_Xa51csfvbVYNi1iJ7SQwjLL-oN5uSBqyS9c
 id: node.article.default
 targetEntityType: node
 bundle: article
@@ -34,13 +34,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_enable_toc:
-    weight: 123
-    settings:
-      display_label: true
-    third_party_settings: {  }
-    type: boolean_checkbox
-    region: content
   field_next_audit_due:
     weight: 121
     settings: {  }
@@ -54,6 +47,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
+    region: content
+  field_toc_enable:
+    weight: 124
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
     region: content
   path:
     type: path
@@ -98,6 +98,7 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+      match_limit: 10
     third_party_settings: {  }
 hidden:
   comment: true
