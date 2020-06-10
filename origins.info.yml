@@ -37,6 +37,7 @@ install:
   - views_ui
   - automated_cron
   - origins_common
+  - origins_workflow
   - ctools
   - simplei
   - pathauto
