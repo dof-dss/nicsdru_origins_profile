@@ -1,7 +1,7 @@
 name: NICS Origins
 type: profile
 description: To provide common functionality for various NICS websites
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 install:
   - node
   - history
