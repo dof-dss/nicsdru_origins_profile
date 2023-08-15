@@ -12,7 +12,7 @@
     "dof-dss/nicsdru_origins_modules": "*",
     "drupal/address": "^1.12",
     "drupal/adminimal_theme": "^1.6",
-    "drupal/ctools": "^3.7",
+    "drupal/ctools": "^4.0",
     "drupal/token": "^1.9",
     "drupal/token_filter": "^1.1",
     "drupal/pathauto": "^1.4",
