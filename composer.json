@@ -14,7 +14,7 @@
     "drupal/adminimal_theme": "^1.6",
     "drupal/ctools": "^4.0",
     "drupal/token": "^1.9",
-    "drupal/token_filter": "^1.1",
+    "drupal/token_filter": "^2.0",
     "drupal/pathauto": "^1.4",
     "drupal/metatag": "^1.16",
     "drupal/eu_cookie_compliance": "^1.14",
